@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ass1.mandeep.quicknote" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name=".CreateNoteActivity"
+            android:label="@string/title_activity_create_note"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".ShowNotesActivity"
+            android:label="@string/title_activity_show_notes"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

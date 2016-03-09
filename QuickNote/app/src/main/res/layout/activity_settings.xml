@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="com.ass1.mandeep.quicknote.SettingsActivity">
+
+    <TextView android:text="Text Size" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/lblSize"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Notes (Child Lock)"
+        android:id="@+id/lock"
+        android:checked="true"/>
+
+</LinearLayout>

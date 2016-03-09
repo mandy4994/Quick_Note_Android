@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textColor="#ff7cadd2">
+    </TextView>
+    <TextView
+        android:id="@+id/lblContent"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="@+id/label"  >
+    </TextView>
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@+id/label" android:textStyle="italic" >
+    </TextView>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:focusable="false"
+        />
+</LinearLayout>
